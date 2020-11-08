@@ -1,7 +1,7 @@
 # SafeStop
 
 ## What is it?
-`SafeStop` is a golang daemon for large services that will coordinate safely shutting down multiple services/background processes when an OS signal (such as `SIGINT`/`SIGTERM`, which are the default signals handled) is executed.
+`SafeStop` is a golang daemon for large applications that will coordinate safely shutting down multiple services/background processes when an OS signal (such as `SIGINT`/`SIGTERM`, which are the default signals handled) is executed.
 
 ## Installation
 
